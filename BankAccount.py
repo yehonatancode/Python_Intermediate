@@ -40,3 +40,7 @@ for user in users:
     user.display()
 
 print(users[-3].display()) #negative indexing
+#https://www.geeksforgeeks.org/python-list-slicing/ slicing fundamentals
+miniusers = users[2:4]
+for mi in miniusers:
+    mi.display()
